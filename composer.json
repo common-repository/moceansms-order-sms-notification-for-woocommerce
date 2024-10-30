@@ -1,0 +1,17 @@
+{
+    "name": "moceanapi/moceansms-order-sms-notification-for-woocommerce",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Woon Kit",
+            "email": "wk_kong@mocean.com.my"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MoceanAPI_WC\\": "src"
+        },
+        "classmap": ["src/", "src/Forms/Handlers"]
+    }
+}
